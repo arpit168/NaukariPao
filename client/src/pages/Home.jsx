@@ -69,7 +69,7 @@ const Home = () => {
           </button>
         </div>
         <div className="flex-1 flex justify-center items-center">
-          <img src={anokha} alt="" className="w-40 md:w-90" />
+          <img src={anokha} alt="" className=" md:w-90 relative md:top-6" />
         </div>
       </div>
       {/* Categories Section */}
@@ -107,7 +107,7 @@ const Home = () => {
             </span>
           </div>
         </div>
-        <div className="mt-8 md:mt-20">
+        <div className="mt-8 md:mt-20 pb-10">
           <div className="gap-4 md:gap-10 text-center justify-center flex flex-wrap text-white">
             <span className="text-xl md:text-2xl p-4 md:p-10 px-6 md:px-15 bg-gray-900 hover:scale-105 duration-400 hover:bg-gray-950 hover:text-pink-500 rounded-xl w-40 md:w-auto">
               <LuConstruction className="mx-auto text-3xl md:text-4xl" />
@@ -136,7 +136,7 @@ const Home = () => {
         </div>
       </div>
       {/* Resume Section */}
-      <div className="h-auto md:h-100 pt-10 md:pt-30 mx-2 md:mx-5 opacity-50 text-center bg-center bg-cover rounded-2xl bg-[url('./inter.avif')]">
+      <div className="h-auto md:h-100 pt-10 md:my-10  md:pt-30 mx-2 md:mx-5 opacity-50 text-center bg-center bg-cover rounded bg-[url('./inter.avif')]">
         <h3 className="text-xl md:text-2xl pb-4 md:pb-10 text-red-600">
           FEATURED TOURS PACKAGES
         </h3>
@@ -149,7 +149,7 @@ const Home = () => {
       </div>
       {/* Featured Jobs Section */}
       <div>
-        <div className="text-white bg-gradient-to-r bg-red-800 to-gray-800 h-auto pb-10 pt-10 md:pt-40 mx-2 md:mx-5 rounded-2xl">
+        <div className="text-white bg-gradient-to-r bg-red-800 to-gray-800 h-auto pb-10 pt-10 md:pt-40 mx-2 md:mx-5 rounded">
           <h3 className="text-center text-xl mb-4 md:mb-10">Recent Jobs</h3>
           <h1 className="text-center text-3xl md:text-6xl font-bold">
             Featured Jobs
@@ -196,7 +196,7 @@ const Home = () => {
           </div>
           <div className="flex flex-col md:flex-row justify-around my-8 md:my-20 gap-6 md:gap-0">
             <div className="card w-full md:w-100 h-100 border p-6 md:p-10 rounded-2xl bg-gray-950 hover:scale-103 transition-all duration-700 mb-4 md:mb-0">
-              <span className="flex items-center justify-center text-6xl md:text-8xl transition-transform duration-500 hover:[transform:rotateY(180deg)_translateX(20px)]">
+              <span className="flex items-center justify-center text-6xl md:text-8xl transition-transform duration-500  hover:[transform:rotateY(180deg)_translateX(20px)]">
                 <MdOutlineContentPasteSearch />
               </span>
               <h3 className="text-xl md:text-3xl font-bold m-3">
