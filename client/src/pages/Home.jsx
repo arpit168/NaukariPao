@@ -35,10 +35,14 @@ const Home = () => {
   return (
     <div className="w-full">
       <div className="rounded-2xl px-4 md:px-20">
-        <h1 className="text-white text-4xl md:text-9xl font-bold text-center relative top-10 md:top-32">
+        <h1 className="text-white text-4xl md:text-9xl font-bold text-center relative md:top-100">
           <span className="text-pink-800 animate-pulse">WELCOME </span>TO HOME
         </h1>
-        <img src={ak} className="w-full h-64 md:h-screen object-cover opacity-20" alt="" />
+        <img
+          src={ak}
+          className="w-full h-64 md:h-screen object-cover opacity-20"
+          alt=""
+        />
       </div>
       <div className="flex flex-col md:flex-row justify-around m-5  rounded text-2xl h-auto md:h-[38rem] bg-gradient-to-r from-gray-700 to-red-800 text-white">
         <div className="pt-10 md:pt-30 ps-20  flex-1">
@@ -75,27 +79,28 @@ const Home = () => {
             FEATURED TOURS PACKAGES
           </h3>
           <h1 className="text-gray-300 text-3xl md:text-7xl">
-            <span className="text-pink-500 animate-pulse">Browse</span> Top Categories
+            <span className="text-pink-500 animate-pulse">Browse</span> Top
+            Categories
           </h1>
         </div>
         <div className="mt-8 md:mt-20">
           <div className="gap-4 md:gap-10 text-center justify-center flex flex-wrap text-white">
-            <span className="text-xl md:text-2xl p-4 md:p-10 bg-gray-900 hover:bg-gray-950 hover:text-pink-500 rounded-xl w-40 md:w-auto">
+            <span className="text-xl md:text-2xl p-4 md:p-10 bg-gray-900 hover:bg-gray-950 hover:scale-105 duration-400 hover:text-pink-500 rounded-xl w-40 md:w-auto">
               <FaUserAstronaut className="mx-auto text-3xl md:text-4xl" />
               <h5 className="my-2">Design & Creative</h5>
               <span className="text-pink-600">(653)</span>
             </span>
-            <span className="text-xl md:text-2xl p-4 md:p-10 bg-gray-900 hover:bg-gray-950 hover:text-pink-500 rounded-xl w-40 md:w-auto">
+            <span className="text-xl md:text-2xl p-4 md:p-10 bg-gray-900 hover:bg-gray-950 hover:scale-105 duration-400 hover:text-pink-500 rounded-xl w-40 md:w-auto">
               <LuComputer className="mx-auto text-3xl md:text-4xl" />
               <h5>Design & Developement</h5>
               <span className="text-pink-600">(651)</span>
             </span>
-            <span className="text-xl md:text-2xl p-4 md:p-10 bg-gray-900 hover:bg-gray-950 hover:text-pink-500 rounded-xl w-40 md:w-auto">
+            <span className="text-xl md:text-2xl p-4 md:p-10 bg-gray-900 hover:bg-gray-950 hover:scale-105 duration-400 hover:text-pink-500 rounded-xl w-40 md:w-auto">
               <SiCoinmarketcap className="mx-auto text-3xl md:text-4xl" />
               <h5>Sales and Marketing</h5>
               <span className="text-pink-600">(652)</span>
             </span>
-            <span className="text-xl md:text-2xl p-4 md:p-10 bg-gray-900 hover:bg-gray-950 hover:text-pink-500 rounded-xl w-40 md:w-auto">
+            <span className="text-xl md:text-2xl p-4 md:p-10 bg-gray-900 hover:bg-gray-950 hover:scale-105 duration-400 hover:text-pink-500 rounded-xl w-40 md:w-auto">
               <TbDeviceMobileCog className="mx-auto text-3xl md:text-4xl" />
               <h5>Mobile Application</h5>
               <span className="text-pink-600">(654)</span>
@@ -104,22 +109,22 @@ const Home = () => {
         </div>
         <div className="mt-8 md:mt-20">
           <div className="gap-4 md:gap-10 text-center justify-center flex flex-wrap text-white">
-            <span className="text-xl md:text-2xl p-4 md:p-10 px-6 md:px-15 bg-gray-900 hover:bg-gray-950 hover:text-pink-500 rounded-xl w-40 md:w-auto">
+            <span className="text-xl md:text-2xl p-4 md:p-10 px-6 md:px-15 bg-gray-900 hover:scale-105 duration-400 hover:bg-gray-950 hover:text-pink-500 rounded-xl w-40 md:w-auto">
               <LuConstruction className="mx-auto text-3xl md:text-4xl" />
               <h5 className="my-2">Construction</h5>
               <span className="text-pink-600">(653)</span>
             </span>
-            <span className="text-xl md:text-2xl p-4 md:p-10 bg-gray-900 hover:bg-gray-950 hover:text-pink-500 rounded-xl w-40 md:w-auto">
+            <span className="text-xl md:text-2xl p-4 md:p-10 bg-gray-900 hover:bg-gray-950 hover:scale-105 duration-400 hover:text-pink-500 rounded-xl w-40 md:w-auto">
               <GiProcessor className="mx-auto text-3xl md:text-4xl" />
               <h5>Information Technology</h5>
               <span className="text-pink-600">(651)</span>
             </span>
-            <span className="text-xl md:text-2xl p-4 md:p-10 px-6 md:px-20 bg-gray-900 hover:bg-gray-950 hover:text-pink-500 rounded-xl w-40 md:w-auto">
+            <span className="text-xl md:text-2xl p-4 md:p-10 px-6 md:px-20 bg-gray-900 hover:scale-105 duration-400  hover:bg-gray-950 hover:text-pink-500 rounded-xl w-40 md:w-auto">
               <MdOutlineMapsHomeWork className="mx-auto text-3xl md:text-4xl" />
               <h5>Real Estate</h5>
               <span className="text-pink-600">(652)</span>
             </span>
-            <span className="text-xl md:text-2xl p-4 md:p-10 px-6 md:px-20 bg-gray-900 hover:bg-gray-950 hover:text-pink-500 rounded-xl w-40 md:w-auto">
+            <span className="text-xl md:text-2xl p-4 md:p-10 px-6 md:px-20 bg-gray-900 hover:scale-105 duration-400 hover:bg-gray-950 hover:text-pink-500 rounded-xl w-40 md:w-auto">
               <SlNote className="mx-auto text-3xl md:text-4xl" />
               <h5>Content Writer</h5>
               <span className="text-pink-600">(654)</span>
@@ -146,10 +151,15 @@ const Home = () => {
       <div>
         <div className="text-white bg-gradient-to-r bg-red-800 to-gray-800 h-auto pb-10 pt-10 md:pt-40 mx-2 md:mx-5 rounded-2xl">
           <h3 className="text-center text-xl mb-4 md:mb-10">Recent Jobs</h3>
-          <h1 className="text-center text-3xl md:text-6xl font-bold">Featured Jobs</h1>
+          <h1 className="text-center text-3xl md:text-6xl font-bold">
+            Featured Jobs
+          </h1>
           {/* Featured Job Cards */}
           {[aa, ab, ac, ad].map((img, idx) => (
-            <div key={idx} className="flex flex-col md:flex-row items-center mt-5 md:mt-25 md:ms-65 rounded-2xl hover:scale-102 duration-200 bg-gray-900 hover:bg-gray-950 w-full md:w-[61rem] py-6 md:py-10 px-3 md:px-5 mb-4">
+            <div
+              key={idx}
+              className="flex flex-col md:flex-row items-center mt-5 md:mt-25 md:ms-65 rounded-2xl hover:scale-102 duration-200 bg-gray-900 hover:bg-gray-950 w-full md:w-[61rem] py-6 md:py-10 px-3 md:px-5 mb-4"
+            >
               <img src={img} width={100} alt="" />
               <div className="m-2 w-full">
                 <div className="grid">
@@ -179,7 +189,9 @@ const Home = () => {
         {/* How it works Section */}
         <div className="bg-cover bg-center text-center h-auto md:h-screen w-full md:w-[92rem] mt-10 text-white pt-10 md:pt-30 bg-[url('/blue.jpg')] bg-no-repeat object">
           <div className="text-center">
-            <h3 className="text-red-600 text-xl md:text-2xl font-bold">APPLY PROCESS</h3>
+            <h3 className="text-red-600 text-xl md:text-2xl font-bold">
+              APPLY PROCESS
+            </h3>
             <h1 className="font-bold text-3xl md:text-6xl">How it works</h1>
           </div>
           <div className="flex flex-col md:flex-row justify-around my-8 md:my-20 gap-6 md:gap-0">
@@ -187,27 +199,39 @@ const Home = () => {
               <span className="flex items-center justify-center text-6xl md:text-8xl transition-transform duration-500 hover:[transform:rotateY(180deg)_translateX(20px)]">
                 <MdOutlineContentPasteSearch />
               </span>
-              <h3 className="text-xl md:text-3xl font-bold m-3">1.Search a Job</h3>
+              <h3 className="text-xl md:text-3xl font-bold m-3">
+                1.Search a Job
+              </h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui excepturi possimus eius laborum ipsa veritatis sed obcaecati a! Voluptatum, quas.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui
+                excepturi possimus eius laborum ipsa veritatis sed obcaecati a!
+                Voluptatum, quas.
               </p>
             </div>
             <div className="card w-full md:w-100 h-100 border p-6 md:p-10 rounded-2xl bg-gray-950 hover:scale-103 transition-all duration-700 mb-4 md:mb-0">
               <span className="flex items-center justify-center text-6xl md:text-8xl transition-transform duration-500 hover:[transform:rotateY(180deg)_translateX(20px)]">
                 <PiUserCirclePlusBold />
               </span>
-              <h3 className="text-xl md:text-3xl font-bold m-3">2.Apply for Job</h3>
+              <h3 className="text-xl md:text-3xl font-bold m-3">
+                2.Apply for Job
+              </h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui excepturi possimus eius laborum ipsa veritatis sed obcaecati a! Voluptatum, quas.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui
+                excepturi possimus eius laborum ipsa veritatis sed obcaecati a!
+                Voluptatum, quas.
               </p>
             </div>
             <div className="card w-full md:w-100 h-100 border p-6 md:p-10 rounded-2xl bg-gray-950 hover:scale-103 transition-all duration-700">
               <span className="flex items-center justify-center text-6xl md:text-8xl transition-transform duration-500 hover:[transform:rotateY(180deg)_translateX(20px)]">
                 <GrUserWorker />
               </span>
-              <h3 className="text-xl md:text-3xl font-bold m-3">3. Get your Job</h3>
+              <h3 className="text-xl md:text-3xl font-bold m-3">
+                3. Get your Job
+              </h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui excepturi possimus eius laborum ipsa veritatis sed obcaecati a! Voluptatum, quas.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui
+                excepturi possimus eius laborum ipsa veritatis sed obcaecati a!
+                Voluptatum, quas.
               </p>
             </div>
           </div>
@@ -225,7 +249,10 @@ const Home = () => {
               <h5 className="text-lg md:text-2xl m-5">Creative Designer</h5>
               <p>
                 <i>
-                  " I am at an age Where I just want to be fit and healthy our bodies are Our responsability! So start caring for your body and it will care for you. Eat clean it eill care for you and workout hard. "
+                  " I am at an age Where I just want to be fit and healthy our
+                  bodies are Our responsability! So start caring for your body
+                  and it will care for you. Eat clean it eill care for you and
+                  workout hard. "
                 </i>
               </p>
             </div>
@@ -240,11 +267,20 @@ const Home = () => {
             </h1>
             <br />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex similique, labore dolorum ducimus enim eveniet atque molestias numquam, reprehenderit eaque nostrum. Distinctio odit temporibus dolorum eveniet est quos hic perspiciatis porro reprehenderit! Aspernatur voluptate velit ipsa ut odit, quidem excepturi?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+              similique, labore dolorum ducimus enim eveniet atque molestias
+              numquam, reprehenderit eaque nostrum. Distinctio odit temporibus
+              dolorum eveniet est quos hic perspiciatis porro reprehenderit!
+              Aspernatur voluptate velit ipsa ut odit, quidem excepturi?
             </p>
             <br />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt nesciunt rerum, enim voluptatum error veniam magni est recusandae, fugiat a, qui repellendus ex porro modi nulla possimus ut? Magnam quae tempore inventore corrupti dolor accusantium quo aspernatur perferendis, laudantium similique non quasi eos cum earum est vel sapiente quis. Nihil.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt
+              nesciunt rerum, enim voluptatum error veniam magni est recusandae,
+              fugiat a, qui repellendus ex porro modi nulla possimus ut? Magnam
+              quae tempore inventore corrupti dolor accusantium quo aspernatur
+              perferendis, laudantium similique non quasi eos cum earum est vel
+              sapiente quis. Nihil.
             </p>
             <button className="bg-red-600 font-bold my-2 px-5 py-3 hover:bg-red-900 hover:scale-105 rounded">
               Post a Job
@@ -255,7 +291,11 @@ const Home = () => {
             </div>
           </div>
           <div className="flex-1">
-            <img src={bb} className="w-full md:w-700 h-32 md:h-150 object-cover" alt="" />
+            <img
+              src={bb}
+              className="w-full md:w-700 h-32 md:h-150 object-cover"
+              alt=""
+            />
           </div>
         </div>
         {/* Blog Section */}
@@ -368,7 +408,10 @@ const Home = () => {
               <span className="flex gap-5 items-center">
                 <img src={pic} alt="" width={50} className="rounded-4xl" />
                 <h3>
-                  <span className="text-xl md:text-3xl font-bold"> Naukari-Pao </span>
+                  <span className="text-xl md:text-3xl font-bold">
+                    {" "}
+                    Naukari-Pao{" "}
+                  </span>
                   <br />
                   <span className="text-gray-400 border-b">
                     <i>Pao Sapno ki naukari</i>
@@ -376,10 +419,12 @@ const Home = () => {
                 </h3>
               </span>
               <span className="text-lg md:text-xl">
-                <span className="text-xl md:text-3xl">5000+</span> Talented Hunter
+                <span className="text-xl md:text-3xl">5000+</span> Talented
+                Hunter
               </span>
               <span className="text-lg md:text-xl">
-                <span className="text-xl md:text-3xl"> 451 </span> Talented Hunter
+                <span className="text-xl md:text-3xl"> 451 </span> Talented
+                Hunter
               </span>
               <span className="text-lg md:text-xl">
                 <span className="text-xl md:text-3xl">568</span> Talented Hunter
@@ -388,7 +433,8 @@ const Home = () => {
             {/* Footer Bottom */}
             <div className="flex flex-col md:flex-row justify-between text-gray-500">
               <span className="flex gap-2 mt-6 md:mt-10 items-center">
-                Copyright  © 2025 All rights reserved | This template is made With
+                Copyright © 2025 All rights reserved | This template is made
+                With
                 <i>Arpit Gupta</i>
               </span>
               <span className="flex gap-5 text-xl md:text-2xl mt-6 md:mt-10">

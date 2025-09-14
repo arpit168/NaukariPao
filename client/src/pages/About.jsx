@@ -22,79 +22,60 @@ const About = () => {
         <h1 className="text-white text-4xl md:text-9xl font-bold text-center relative  md:top-100">
           About Us
         </h1>
-        <img src={ak} className="w-full h-64 md:h-screen object-cover opacity-20" alt="" />
+        <img
+          src={ak}
+          className="w-full h-64 md:h-screen object-cover opacity-20"
+          alt=""
+        />
       </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       {/* WHAT WE ARE DOING */}
-       <div className="w-full md:w-300 h-auto md:h-150 border-2 m-4 md:m-30 rounded inline-flex flex-col md:flex-row text-gray-500 bg-gray-700">
-                <div className="p-6 md:p-20 flex-1">
-                  <h4 className="text-red-500">WHAT WE ARE DOING</h4> <br />
-                  <h1 className="text-2xl md:text-4xl font-bold text-gray-300">
-                    24k Talanted peoples are getting Jobs
-                  </h1>
-                  <br />
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex similique, labore dolorum ducimus enim eveniet atque molestias numquam, reprehenderit eaque nostrum. Distinctio odit temporibus dolorum eveniet est quos hic perspiciatis porro reprehenderit! Aspernatur voluptate velit ipsa ut odit, quidem excepturi?
-                  </p>
-                  <br />
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt nesciunt rerum, enim voluptatum error veniam magni est recusandae, fugiat a, qui repellendus ex porro modi nulla possimus ut? Magnam quae tempore inventore corrupti dolor accusantium quo aspernatur perferendis, laudantium similique non quasi eos cum earum est vel sapiente quis. Nihil.
-                  </p>
-                  <button className="bg-red-600 hover:text-red-600  font-bold my-2 px-5 py-3 hover:bg-white hover:scale-105 rounded">
-                    Post a Job
-                  </button>
-                  <div className="relative text-center mt-6 md:left-[31vw] md:bottom-[18.5vh] h-[100px] md:h-[150px] w-[120px] md:w-[200px] bg-blue-900 rounded">
-                    <span className="text-2xl md:text-4xl">Since</span> <br />
-                    <span className="font-bold text-4xl md:text-7xl">2025</span>
-                  </div>
-                </div>
-                <div className="flex-1">
-                  <img src={ab} className="w-full md:w-700  md:h-150 object-cover" alt="" />
-                </div>
-              </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
+      <div className="w-full md:w-300 h-auto md:h-150 border-2 m-4 md:m-30 rounded inline-flex flex-col md:flex-row text-gray-500 bg-gray-700">
+        <div className="p-6 md:p-20 flex-1">
+          <h4 className="text-red-500">WHAT WE ARE DOING</h4> <br />
+          <h1 className="text-2xl md:text-4xl font-bold text-gray-300">
+            24k Talanted peoples are getting Jobs
+          </h1>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+            similique, labore dolorum ducimus enim eveniet atque molestias
+            numquam, reprehenderit eaque nostrum. Distinctio odit temporibus
+            dolorum eveniet est quos hic perspiciatis porro reprehenderit!
+            Aspernatur voluptate velit ipsa ut odit, quidem excepturi?
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt
+            nesciunt rerum, enim voluptatum error veniam magni est recusandae,
+            fugiat a, qui repellendus ex porro modi nulla possimus ut? Magnam
+            quae tempore inventore corrupti dolor accusantium quo aspernatur
+            perferendis, laudantium similique non quasi eos cum earum est vel
+            sapiente quis. Nihil.
+          </p>
+          <button className="bg-red-600 hover:text-red-600  font-bold my-2 px-5 py-3 hover:bg-white hover:scale-105 rounded">
+            Post a Job
+          </button>
+          <div className="relative text-center mt-6 md:left-[31vw] md:bottom-[18.5vh] h-[100px] md:h-[150px] w-[120px] md:w-[200px] bg-blue-900 rounded">
+            <span className="text-2xl md:text-4xl">Since</span> <br />
+            <span className="font-bold text-4xl md:text-7xl">2025</span>
+          </div>
+        </div>
+        <div className="flex-1">
+          <img
+            src={ab}
+            className="w-full md:w-700  md:h-150 object-cover"
+            alt=""
+          />
+        </div>
+      </div>
 
       {/* APPLY PROCESS */}
       <div className="bg-cover bg-center text-center h-auto md:h-screen w-full mt-10 text-white pt-10 md:pt-30 bg-[url('/blue.jpg')] bg-no-repeat">
         <div className="text-center">
-          <h3 className="text-red-600 text-xl md:text-2xl font-bold">APPLY PROCESS</h3>
+          <h3 className="text-red-600 text-xl md:text-2xl font-bold">
+            APPLY PROCESS
+          </h3>
           <h1 className="font-bold text-3xl md:text-6xl">How it works</h1>
         </div>
         <div className="flex flex-col md:flex-row justify-around items-center my-10 md:my-20 gap-6">
@@ -102,7 +83,9 @@ const About = () => {
             <span className="flex items-center justify-center text-6xl md:text-8xl transition-transform duration-500 hover:[transform:rotateY(180deg)_translateX(20px)]">
               <MdOutlineContentPasteSearch />
             </span>
-            <h3 className="text-xl md:text-3xl font-bold m-3">1.Search a Job</h3>
+            <h3 className="text-xl md:text-3xl font-bold m-3">
+              1.Search a Job
+            </h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui
               excepturi possimus eius laborum ipsa veritatis sed obcaecati a!
@@ -113,7 +96,9 @@ const About = () => {
             <span className="flex items-center justify-center text-6xl md:text-8xl transition-transform duration-500 hover:[transform:rotateY(180deg)_translateX(20px)]">
               <PiUserCirclePlusBold />
             </span>
-            <h3 className="text-xl md:text-3xl font-bold m-3">2.Apply for Job</h3>
+            <h3 className="text-xl md:text-3xl font-bold m-3">
+              2.Apply for Job
+            </h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui
               excepturi possimus eius laborum ipsa veritatis sed obcaecati a!
@@ -124,7 +109,9 @@ const About = () => {
             <span className="flex items-center justify-center text-6xl md:text-8xl transition-transform duration-500 hover:[transform:rotateY(180deg)_translateX(20px)]">
               <GrUserWorker />
             </span>
-            <h3 className="text-xl md:text-3xl font-bold m-3">3. Get your Job</h3>
+            <h3 className="text-xl md:text-3xl font-bold m-3">
+              3. Get your Job
+            </h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui
               excepturi possimus eius laborum ipsa veritatis sed obcaecati a!
@@ -143,7 +130,9 @@ const About = () => {
             alt=""
           />
           <div className="text-white">
-            <h3 className="  text-2xl md:text-5xl font-bold "><span className="text-red-900 text-6xl">A</span>rpit Gupta</h3>
+            <h3 className="  text-2xl md:text-5xl font-bold ">
+              <span className="text-red-900 text-6xl">A</span>rpit Gupta
+            </h3>
             <h5 className="text-lg md:text-2xl m-5">Creative Designer</h5>
             <p>
               <i>
@@ -176,7 +165,9 @@ const About = () => {
           <h3 className="text-lg md:text-xl mb-2 md:mb-5 text-red-700 font-bold">
             OUR LATEST BLOG
           </h3>
-          <h1 className="text-2xl md:text-6xl font-bold text-gray-900">Our recent news</h1>
+          <h1 className="text-2xl md:text-6xl font-bold text-gray-900">
+            Our recent news
+          </h1>
         </div>
         <div className="flex flex-col md:flex-row mt-10 md:mt-20 mx-4 md:mx-30 p-2 md:p-5 gap-5">
           <div className="bg-white p-4 md:p-5 rounded flex-1">
@@ -278,7 +269,10 @@ const About = () => {
             <span className="flex gap-5 items-center">
               <img src={pic} alt="" className="rounded-4xl h-10" />
               <h3>
-                <span className="text-xl md:text-2xl font-bold"> Naukari-Pao </span>
+                <span className="text-xl md:text-2xl font-bold">
+                  {" "}
+                  Naukari-Pao{" "}
+                </span>
                 <br />
                 <span className="text-gray-400 font-extralight border-b">
                   <i>Pao Sapno ki naukari</i>

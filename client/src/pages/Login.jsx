@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { LuLogIn } from "react-icons/lu";
 
-
 const Login = () => {
   const [loginData, setLoginData] = useState({
     email: "",
@@ -9,7 +8,6 @@ const Login = () => {
   });
 
   const handleChange = (e) => {
-    
     const { name, value } = e.target;
     setLoginData((previousData) => ({ ...previousData, [name]: value }));
   };
@@ -26,14 +24,17 @@ const Login = () => {
 
   return (
     <>
-    
       <div className="   h-164 flex items-center justify-center  bg-[url('/bgi.jpg')]  bg-cover bg-center  ">
         <div className="min-w-md border rounded-2xl shadow bg-gray-800 py-10 px-4 space-y-10">
-          <h1 className=" ps-25 text-2xl border-b-2 font-bold text-blue-700 hover:text-red-700 flex gap-2"> <LuLogIn className="mt-2" />Login Here</h1>
+          <h1 className=" ps-25 text-2xl border-b-2 font-bold text-blue-700 hover:text-red-700 flex gap-2">
+            {" "}
+            <LuLogIn className="mt-2" />
+            Login Here
+          </h1>
           <form className="space-y-6" onSubmit={handleSubmit}>
             <div>
               <label htmlFor="email" className="w-1/4 inline-block text-white">
-              Email:
+                Email:
               </label>
               <input
                 type="email"
@@ -46,7 +47,10 @@ const Login = () => {
               />
             </div>
             <div>
-              <label htmlFor="password" className="w-1/4 inline-block text-white">
+              <label
+                htmlFor="password"
+                className="w-1/4 inline-block text-white"
+              >
                 Password:
               </label>
               <input
@@ -62,8 +66,8 @@ const Login = () => {
             <button
               type="submit"
               className="w-full border rounded-lg shadow p-2  hover:bg-blue-800 bg-blue-700 text-blue-100 hover:text-white"
-            >   
-             Login
+            >
+              Login
             </button>
           </form>
         </div>
